@@ -30,8 +30,8 @@ The **Data Analysis AI Assistant** is a powerful, AI-driven web application desi
 ### Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Mr-Amresh/DataAnayzerLangraph.git
-   cd DataAnayzerLangraph
+   git clone https://github.com/Mr-Amresh/DataAnalyzerLangGraph.git
+   cd DataAnalyzerLangGraph
    ```
 
 2. **Install Dependencies**:
@@ -74,35 +74,4 @@ pip install streamlit pandas numpy plotly langchain langgraph langchain-groq mat
 ## Example Workflow
 1. Upload a CSV file containing sales data.
 2. Specify a use case, e.g., "Analyze sales trends and identify top-performing products."
-3. Select tools like "data_profiler" and "time_series_analysis."
-4. Run the analysis to receive:
-   - A data summary with key statistics
-   - Visualizations (e.g., line charts for sales over time)
-   - Business insights (e.g., top products, seasonal trends)
-   - A reconstructed use case and final report
-
-## Limitations
-- Only CSV files are supported for data input.
-- Large datasets (>500MB) may impact performance.
-- Some advanced tools (e.g., predictive modeling) are in beta and may require additional configuration.
-- Requires a stable internet connection for Groq API access.
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository: `https://github.com/Mr-Amresh/DataAnayzerLangraph`
-2. Create a feature branch (`git checkout -b feature/new-feature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/new-feature`).
-5. Open a pull request.
-
-Please ensure your code follows PEP 8 guidelines and includes appropriate tests.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For questions or support, please contact [your-email@example.com](mailto:your-email@example.com) or open an issue on the GitHub repository: [https://github.com/Mr-Amresh/DataAnayzerLangraph](https://github.com/Mr-Amresh/DataAnayzerLangraph).
-
-## Acknowledgments
-- Built with ❤️ using [Streamlit](https://streamlit.io/), [LangGraph](https://github.com/langchain-ai/langgraph), and [Grok](https://x.ai/grok) by xAI.
-- Special thanks to the open-source community for their invaluable contributions to the data science ecosystem.
+3. Select tools like "data
